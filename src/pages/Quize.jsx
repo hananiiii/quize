@@ -129,17 +129,17 @@ export default function Quize() {
         return (
           <section>
             <Header />
-            <div className=' flex justify-center lg:my-[40px] sm:my-[40px] my-[40px] '>
+            <div className=' flex justify-center my-12  '>
 
               {isQuizStarted ? (
                 <div className=' flex flex-row  gap-44 items-center'> 
-                 <div className=' lg:block hidden  my-[160px] '>
+                 <div className=' lg:block hidden  my-44 '>
                    <Timer/>
                 </div>
-                <div id='quizes' className='bg-white   border border-Orange text-Orange p-8 space-y-6 shadow-lg rounded-xl max-w-sm md:max-w-xl sm:max-w-md'>
+                <div id='quizes' className='bg-white   border border-Orange text-Orange lg:p-8 md:p-8 px-8 py-8 lg:mx-0  space-y-6 shadow-lg rounded-xl max-w-xs lg:max-w-xl sm:max-w-md'>
                   {showScore ? (
-                    <div className='question-section my-[170px] '>
-                      <span className='bg-white  border border-Orange p-8 space-y-6 shadow-lg rounded-xl max-w-sm md:max-w-xl sm:max-w-xl text-xl font-bold text-gray-800'>you scored {score} out of {questions.length}</span>
+                    <div className='question-section my-32 '>
+                      <span className='bg-white  border border-Orange p-8 space-y-6 shadow-lg rounded-xl max-w-md md:max-w-xl sm:max-w-xl text-xl font-bold text-gray-800'>you scored {score}/{questions.length}</span>
                     </div>
                   ) : (
                     <>
@@ -162,7 +162,7 @@ export default function Quize() {
               ) : (
                 <div
                   id='question'
-                  className='bg-white my-[130px] border border-Orange text-Orange p-8 space-y-6 shadow-lg rounded-xl max-w-md md:max-w-xl'
+                  className='bg-white my-[130px] border border-Orange text-Orange p-8 space-y-6 shadow-lg rounded-xl max-w-xs lg:max-w-xl sm:max-w-md'
                 >
                   <h1 className='text-center font-bold text-2xl text-gray-800'>
                     Are you Ready for the quiz?

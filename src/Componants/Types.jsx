@@ -15,44 +15,44 @@ const Types = () => {
         
       </div>
       <div className='lg:w-1/2 my-12'>
-         <div className='flex flex-col gap-6'>
-            <div className='flex flex-col gap-8 lg:max-w-1/2  mx-12 lg:text-start sm:text-center text-center'>
+         <div className='flex flex-col gap-6  '>
+            <div className='flex flex-col gap-8 lg:max-w-1/2 w-full lg:mx-12  lg:text-start text-center'>
                 <div className='flex flex-col gap-2'>
                   <div className='flex flex-row gap-4 ' >
-                      <span className='object-center text-3xl px-3 text-Orange  '>
+                      <span className='text-center text-3xl px-3 text-Orange  '>
                       <ion-icon name="aperture-outline"></ion-icon>
                     </span>
                   
-                         <a class="font-bold text-xl text-gray-800 cursor-pointer ">Multiple Choice Quiz</a>
+                         <a class="font-bold text-center text-xl text-gray-800 cursor-pointer ">Multiple Choice Quiz</a>
                   </div>
-                         <p class="px-8 text-lg font-medium  text-gray-400 mx-9">
+                         <p class="lg:px-8 lg:max-w-xl w-full text-lg font-medium  text-gray-400 lg:mx-9">
                          Users are presented with a question and a list of options. They need to select the correct option from the choices provided.
                          </p>
                         
                </div>
                <div className='flex flex-col gap-2'>
                   <div className='flex flex-row gap-4 ' >
-                      <span className='object-center text-3xl px-3 text-Orange  '>
+                      <span className='text-center text-3xl px-3 text-Orange  '>
                       <ion-icon name="help-outline"></ion-icon>
 
                     </span>
                   
-                         <a class="font-bold text-xl text-gray-800 cursor-pointer ">True/False Quiz</a>
+                         <a class="font-bold  text-center text-xl text-gray-800 cursor-pointer ">True/False Quiz</a>
                   </div>
-                         <p class="px-8 text-lg font-medium  text-gray-400 mx-9">
+                         <p class="lg:px-8 lg:max-w-xl w-full text-lg font-medium  text-gray-400 lg:mx-9">
                          Users are given statements, and they need to determine whether each statement is true or false.
                         </p>
                         
                </div>
                <div className='flex flex-col gap-2'>
                   <div className='flex flex-row gap-4 ' >
-                      <span className='object-center text-3xl px-3 text-Orange  '>
+                      <span className='text-center text-3xl px-3 text-Orange  '>
                         <ion-icon name="calculator-outline"></ion-icon>
                     </span>
                   
                          <a class="font-bold text-xl text-gray-800 cursor-pointer "> Math quiz</a>
                   </div>
-                         <p class="px-8 text-lg font-medium  text-gray-400 mx-9">
+                         <p class="lg:px-8 text-lg lg:max-w-xl w-full font-medium  text-gray-400 lg:mx-9">
                     
                          Users are given mathematical problems to solve, such as equations, calculations, or numerical sequences.
                         </p>
@@ -60,14 +60,14 @@ const Types = () => {
                </div>
                <div className='flex flex-col gap-2'>
                   <div className='flex flex-row gap-4 ' >
-                      <span className='object-center text-3xl px-3 text-Orange  '>
+                      <span className='text-center text-3xl px-3 text-Orange  '>
                       <ion-icon name="language-outline"></ion-icon>
 
                     </span>
                   
                          <a class="font-bold text-xl text-gray-800 cursor-pointer ">Language Learning Quiz</a>
                   </div>
-                         <p class="px-8 text-lg font-medium  text-gray-400 mx-9">
+                         <p class="lg:px-8 text-lg lg:max-w-xl w-full font-medium  text-gray-400 lg:mx-9">
                     
                             Users are tested on their vocabulary, grammar, or language comprehension skills.
                         </p>

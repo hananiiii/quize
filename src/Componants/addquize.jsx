@@ -36,11 +36,11 @@ const AddQuize = () => {
       <div className='flex flex-row gap-8 mt-12 lg:w-[400px] sm:w-[400px] w-[300px]'>
         <input
           className='text-gray-400 font-normal border border-Orange px-8 py-3 w-1/2'
-          placeholder='enter your score'
+          placeholder=' score'
         />
         <input
           className='text-gray-400 font-normal border border-Orange px-8 py-3 w-1/2'
-          placeholder='enter your timer'
+          placeholder=' time'
         />
       </div>
       <div className='flex flex-col gap-6'>

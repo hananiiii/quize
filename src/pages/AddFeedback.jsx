@@ -24,7 +24,7 @@ const AddFeedback = () => {
 
   const handleRating = (value) => {
     setRating(value);
-    if (value >= 5) {
+    if (value >2) {
       setShowGladMessage(true);
       setShowRate(false);
     } else {
@@ -36,19 +36,19 @@ const AddFeedback = () => {
   return (
     <section>
       <Header />
-      <div className='my-[170px] flex justify-center '>
+      <div className='my-44 flex justify-center  '>
         {showFeedback ? (
           showRate ? (
-            <div className='bg-white border border-Orange text-Orange p-8 space-y-6 shadow-lg rounded-xl max-w-xl  md:max-w-xl'>
+            <div className='bg-white border border-Orange text-Orange p-8  space-y-6 shadow-lg rounded-xl max-w-xs  lg:max-w-xl'>
               <h1 className='text-center font-bold text-2xl text-gray-800'>
                 How much did you enjoy the quizzes?
               </h1>
               <ul className='flex flex-row gap-2'>
-                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((value) => (
+                {[1, 2, 3, 4, 5].map((value) => (
                   <button
                     key={value}
                     onClick={() => handleRating(value)}
-                    className={`border rounded hover:bg-Orange hover:text-white px-4 py-3 text-lg font-semibold hover:transform hover:-translate-y-1 hover:shadow-md transition-transform duration-300`}
+                    className={`border rounded hover:bg-Orange hover:text-white  px-4 py-3 text-lg font-semibold hover:transform hover:-translate-y-1 hover:shadow-md transition-transform duration-300`}
                   >
                     {value}
                   </button>

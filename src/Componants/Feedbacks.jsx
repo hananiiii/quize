@@ -34,9 +34,9 @@ const Feedbacks = () => {
            </p>
         
          </div>
-         <div className='grid grid-cols-1 lg:grid-cols-3 lg:gap-0 gap-8 my-12'>
+         <div className='grid grid-cols-1 lg:grid-cols-3 lg:gap-0 gap-8 my-12 px-8'>
             {Data.map((feedback ,index)=>(
-                 <div key={index} className='w-[400px] px-8 py-8 mx-auto flex justify-center '>
+                 <div key={index} className=' px-8 py-8 mx-auto flex justify-center '>
                     <div className='flex flex-col gap-4'>
                       <div className='flex justify-center  '>
                         <img src={feedback.image} alt={`Feedback by ${feedback.name}`} className=' w-16 h-16 rounded-full'/>
